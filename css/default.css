@@ -88,6 +88,19 @@ table {
     padding: 10px 20px;
     border: 1px solid #283645;
 }
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-top: 30px;
+}
+
+.titre {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+   
+}
 /* Fin corps du site */
 
 /* footer */
