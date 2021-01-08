@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.size3em{
+    font-size: 3em;
+}
+
+.colorBluedark{
+    color: #283645;
+}
+
+.colorBlueLight{
+    color: #1490D7;
+}
+
+.colorOrange{
+    color: #ff8000;
+}
+
+/* Header */
+
+header{
+
+    display: flex;
+    align-items: center;
+    text-align: center; 
+}
+
+.photoProfil{
+    width: 33.3%;
+}
+
+.photoProfil .img{
+    height: 200px;
+}
+
+.posteRecherche{
+    width: 33.3%;
+}
+
+.infoPerso{
+    width: 33.3%;
+}
+
+/* Fin Header */
