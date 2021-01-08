@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/pictures/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/default.css">
+    <link rel="stylesheet" href="/css/menu.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">    
+    <title>Page Contact</title>
+</head>
+<body>
+    <header>
+        <div class="presentation">
+            <div class="photoProfil">
+                <img src="assets/pictures/photoProfil.png" alt="photoProfil">
+            </div>
+            <div class="size2em colorBluedark">
+                Poste recherché : <br>
+                Développeur Web  <br>
+                Intégrateur Web 
+            </div>
+            <div class="size2em colorBluedark">
+                LASSALLE CEDRIC <br>
+                3 Rue des pensées <br>
+                62122 Lapugnoy
+            </div>
+        </div>
+        <nav class="backgroundColorBlue">
+            <ul>
+                
+                <li class="menuInfo">
+                    <a href="index.html">Mes informations</a>
+                </li>
+                <li class="menuExp">
+                    <a href="#">Mon expérience professionnelle</a>
+                </li>
+                <li class="menuContact">
+                    <a href="#">Formulaire de contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Corps du site -->
+    <section class="corps">
+    <div class="corps">
+        <h2 class="colorBluedark size2em">Coordonnées</h2>
+        <div>
+            Téléphone : 0671000476 <br />
+            Mail : contact@cedriclassalle.fr
+        </div>
+        <h2 class="colorBluedark size2em">Me contacter</h2>
+        <div>
+            <form>
+                <fieldset>
+                    <legend>Renseigner les informations</legend>
+                    <div class="tableau">
+                        <label for="nom">Nom :</label>
+                        <input type="text" name="nom" id="nom" placeholder="Nom / Prenom"/>
+                    </div>
+                    <div class="tableau"> 
+                        <label for="mail">Email :</label>
+                        <input type="email" name="mail" id="mail" placeholder="nom@exemple.com"/>
+                    </div>
+                    <div class="tableau">
+                        <label for="objet">Objet :</label>
+                        <select name="objet" id="objet">
+                            <option>Question</option>
+                            <option>Autre</option>
+                        </select>
+                    </div>
+                    <div class="tableau">
+                        <label for="message">Message : </label>
+                        <textarea name="message" id="message" cols="30" rows="5"></textarea>
+                    </div>
+                    <input type="submit" value="Valider" class="buttonContact backgroundColorBluelight colorWhite" />
+                </fieldset>
+            </form>
+        </div>
+    </div>
+            
+            
+    </section>
+
+    <footer class="backgroundColorBlue textCenter colorWhite">
+        © Copyright 2021 LASSALLE Cédric
+    </footer>
+</body>
+</html>
